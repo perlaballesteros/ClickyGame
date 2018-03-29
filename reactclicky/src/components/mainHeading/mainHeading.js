@@ -1,15 +1,13 @@
 import React from "react";
-import ButterfliesObjs from "./butterflies";
-import ButterflyImg from "./butterfliesImgs"
 
-const ButterfliesDivs = () => (
-  <div className="butterflyImgwrapper">
-    {ButterfliesObjs.map(butterflies=>(
-      <ButterflyImg image={butterflies.image}/>
-    ))}
-    
-  </div>
-    
+const MainHeading = (props) => (
+  <div className="MainHeading jumbotron bg-warning">
+    <h1>Clicky Game!</h1>
+    <p>Click on an butterfly to earn points, but don't click on a butterfly more than once!</p>
+    <div className="scores">
+        Score: {props.score} | topScore: {props.topScore}
+    </div>
+  </div> 
 );
 
-export default ButterfliesDivs;
+export default MainHeading;

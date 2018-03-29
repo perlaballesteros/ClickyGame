@@ -1,14 +1,9 @@
 import React from "react";
-import ButterfliesDivs from "./components/Butterflies/butterfliesDivs";
-import MainHeading from "./components/mainHeading/mainHeading"
+// import ButterfliesDivs from "./components/Butterflies/butterfliesDivs";
+import ButterfliesImgsDiv from "./components/Butterflies/butterfliesImgsDiv"
+
 const App = () => (
-<div className="conatainer">
-  <div className="mainHeadingContainer">
-  </div>
-  <div className="butterfliesContainer">
-    <ButterfliesDivs/>
-  </div>
-</div>
+  <ButterfliesImgsDiv/>
 );
 
 export default App;

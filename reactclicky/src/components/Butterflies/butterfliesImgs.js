@@ -1,8 +1,7 @@
 import React from "react";
-import "./imgs.css";
 
-const ButterflyImg=(props)=>(
-    <img className="butterflies" src={props.image} ></img>
+const ButterfliesImgs = props => (
+    <img onClick={()=>props.updateScore(props.id)} alt={props.name} id={props.id} className="butterflies" src={props.image} />
 );
 
-export default ButterflyImg;
+export default ButterfliesImgs;
