@@ -1,12 +1,15 @@
 body{
     margin:0;
     padding:0;
-    background-image:url("https://topbackgroundwallpaper.com/wp-content/uploads/2018/01/vintage-floral-wallpaper-background-pink-vintage-floral-wallpaper-hq-resolution.jpg");
+    background-image:url("https://media.istockphoto.com/illustrations/wallpaper-with-roses-antique-flower-illustrations-illustration-id182214515");
+}
+h1{
+    font-family: 'Playball', cursive;
 }
 .MainHeading{
-    background-image: url("./roses.jpg");
+    background-color:#e6bead;
     margin-bottom:2%;
-    background-size: 100% 100%;
+    background-size: repeat;
     text-align:center;
     color:white;
 }
@@ -18,6 +21,7 @@ body{
 }
 .butterflies{
     width:100%;
-    height:80%;
-    border: 2px solid black;
+    height:100%;
+    border: 2px solid #30140f;
+    margin-bottom:5px
 } 

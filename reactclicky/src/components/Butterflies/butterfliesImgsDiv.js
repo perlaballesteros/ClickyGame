@@ -60,6 +60,7 @@ React.Component{
         return (
         <div className="container">
             <MainHeading score={this.state.score} topScore={this.state.topScore}/>
+            
             <div className="butterfliesContainer">
                 {this.state.butterflies.map(butterflies=>(
                     <ButterfliesImgs 
